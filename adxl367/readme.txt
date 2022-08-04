@@ -1,5 +1,5 @@
 The ADXL367 is an ultralow power, 3-axis microelectromechanical systems (MEMS) accelerometer 
-that consumes only 0.89 nA at a 100 Hz output data rate and 180 nA when in motion-triggered wake-up mode.
+that consumes only 0.89 uA at a 100 Hz output data rate and 180 nA when in motion-triggered wake-up mode.
 
 i2c_adxl367_50hz_odr_with_temp.cfg
   1. hardware
