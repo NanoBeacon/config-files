@@ -1,11 +1,24 @@
 # InPlay-Technologies IN100 Githup Page
 ### Links
-#### -Website: https://inplay-tech.com/
-#### -NanoBeacon Config Tool: https://inplay-tech.com/nanobeacon-config-tool
+#### [Website](https://inplay-tech.com)
+#### [NanoBeacon Config Tool](https://inplay-tech.com/nanobeacon-config-tool)
+#### [IN100 Development Kit](https://www.digikey.com/en/products/detail/inplay-inc/IN1BN-DKC0-100-C0/15652914?s=N4IgTCBcDaIJIDsCMAGFIC6BfIA)
+#### [IN100 DFN8](https://www.digikey.com/en/products/detail/inplay-inc/IN100-D1-R-RC0I/15652913) and [IN100 QFN18](https://www.digikey.com/en/products/detail/inplay-inc/IN100-Q1-R-RC0I/15652915)
+
 ### IN100 Support
 
 This GitHub page contains a set of examples for using the IN100. To use an example, 
 download the NanoBeacon Config Tool and load one of the config files found here.
+
+## How to use a config file
+
+In order to use a config file, download the [NanoBeacon Config Tool](https://inplay-tech.com/nanobeacon-config-tool) from our website.
+
+Once installed, open the application and click on Load in the bottom right corner
+
+![image](https://user-images.githubusercontent.com/114425682/193160993-83471116-5d56-492c-ab94-f5873a315d6a.png)
+
+Navigate to where the config file is being stored and select it.
 
 ## File Description
 
