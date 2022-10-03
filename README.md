@@ -54,9 +54,9 @@ Address Mode has options between 7 bit and 10 bit addressing. 7 bit addressing i
 
 I2C Speed allows a standard mode speed of 100Kbps or a fast mode 400 Kbps. Again, this is dependent on the specific application.
 
-Slave Address is specific for the sample sensor connecting to the IN100. The user should check the data sheet of the sample sensor online to verify the slave address. The following sections will use the sample sensor SAMPLE SENSOR humidity sensor which has a slave address of 68 (0x44 in hexadecimal). 
+Slave Address is specific to the sensor connecting to the IN100. The user should check the data sheet of the sensor being used to verify the slave address. The following sections will use a sample sensor which has a slave address of 68 (0x44 in hexadecimal). 
 
-Read Data Storage Settings can change the length of data read by the I2C. For the sample sensor, the length is set to 6 bytes.
+Read Data Storage Settings can change the length of data read by the I2C. For this example, the length is set to 6 bytes.
 
 Click on “I2C Commands” to change the commands issued to the I2C on cold bootup and warm bootup.
 
