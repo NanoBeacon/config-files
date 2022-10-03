@@ -106,7 +106,7 @@ This is a null command that has 4 zero bits, which is the initial state of the e
 
 ### I2C Write
 
-The I2C write command, as discussed in section 1 of this document, tells the I2C to convert its measurements. To issue a write command, the command line needs an address to write to. For the SHT40, the available addresses to write to are available on the data sheet. For example, to read the temperature for the SHT40, the user would issue a write command to 0xFD.
+The I2C write command, as discussed in section 1 of this document, tells the I2C to convert its measurements. To issue a write command, the command line needs an address to write to. For an example sensor, the available addresses to write to are available on the data sheet. For example, to read the temperature for the example sensor, the user would issue a write command to 0xFD.
 
 ![image](https://user-images.githubusercontent.com/114425682/193655026-aa88dd94-bb9c-480f-9fbb-b1b5bf74e590.png)
 
