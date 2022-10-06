@@ -62,7 +62,7 @@ In order to use these files, the user will need
 
  1. hardware: IN100 GPIO5 as I2C SCL, IN100 GPIO4 as I2C SDA, and IN100 SW0 used for power. 
     
- 2. SHT40 sensor
+ 2. SGP40 sensor
 
  3. IN100 Programmer board and development board.
 
