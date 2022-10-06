@@ -60,3 +60,5 @@ Figure 4: Current over passive time for i2c_sht4x_low_power.cfg
 Table 2: Current analysis of I2C sequence in i2c_sht4x_low_power.cfg
 
 From the results in table 2 and figures 3 & 4, the low power mode is far more energy efficient. The only downside to this method is that it requires the sensor to have a sleeping time greater than the processing time of the write command by a few mili-seconds. Fortunately, this is true for the Sensirion SHT4X.
+
+#### i2c_sht4x.cfg and i2c_device_with_sw0_power_control.cfg
