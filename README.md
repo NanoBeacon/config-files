@@ -126,50 +126,32 @@ There are multiple reasons one might want to delay between issuing I2C commands.
 
 ## File Description
 
-### ADXL367
+### Analog Devices - ADXL367 Digital Output MEMS Accelerometer
 
 The ADXL367 is an ultralow power, 3-axis microelectromechanical systems (MEMS) accelerometer
 made by Analog devices. This directory contains configuration files to configure the
 IN100 to interface with the ADXL367 sensor.
 
-### Doc
-
-This directory contains I2C sensor one shot mode and I2C sensor power control guides.
-THis directory also contains Scalable Vector Graphics files on I2C timings.
-
-### SGP40
-
-The SGP40 is a digital gas sensor designed for easy integration into air purifiers 
-or demand controlled ventilation systems made by Adafruit. This directory contains
-configuration files to use the SGP40 with the IN100.
-
-### i2cbma400.cfg
+### Bosch - BMA400 Accelerometer
 
 The BMA400 is a 12-bit triaxal acceleration sensor with position and motion triggered 
 interrupt features. This configuration file configures the IN100 to communicate with
 the BMA400.
 
-### i2c_device_with_sw0_power_control.cfg
+### Sensirion - SGP40 Indoor Air Quality Sensor
 
-This file activates power switching for the i2c. Power switching is recommended for
-use cases with longer advertising intervals. The longer the time between advertising
-events, the more efficient it is for the IN100 to use power switching for its i2c
-configuration.
+The SGP40 is a digital gas sensor designed for easy integration into air purifiers 
+or demand controlled ventilation systems made by Adafruit. This directory contains
+configuration files to use the SGP40 with the IN100.
 
-### i2c_sht4x.cfg
+### Sensirion - SHT4X Humidity and Temperature Sensor
 
 The SHT4x sensor series is a low power, high accuracy, 16-bit relative humidity and
-temperature sensor made by Sensirion. This configuration file uses a typical write-
-delay-read sequence to communicate with the SHT40 sensor.
+temperature sensor made by Sensirion. This directory has a typical write-
+delay-read sequence to communicate with the SHT40 sensor, a low-power configuration,
+and a configuration with power switching enabled.
 
-### i2c_sht4x_low_power.cfg
-
-This configuration file uses a low power consumption i2c sequence. It accomplishes
-this by using the sleeping time of the sensor to process i2c write commands. This
-reduces the use of i2c delay/wait commands and as a result, allows the sensor to
-minimize time spent awake abnd advertising.
-
-### i2c_tmp102.cfg
+### Texas Instruments - TMP102 Low-Power Digital Temperature Sensor
 
 The TMP102 is a lowpower digital temperature sensor made by Sparkfun. This file
 configures the IN100 i2c to communciates with the TMP102.
