@@ -68,3 +68,20 @@ In order to use these files, the user will need
 
  4. NanoBeacon Config Tool to load the config file onto the NanoBeacon.
 
+### Current Analysis
+
+As a demonstration of the IN100's energy saving capabilities, the following figures and table drive the IN100 with the SGP40 at 1.8 V with a 1 second advertising interval. This uses the i2c_sgp40_measure_raw_signal.cfg config file.
+
+![image](https://user-images.githubusercontent.com/114425682/194930692-fdc622b2-4695-4822-b7aa-01a6d40aedd5.png)
+
+Figure 1: Current while passive for example_i2c_sgp40_measure_raw_signal.cfg
+
+![image](https://user-images.githubusercontent.com/114425682/194930862-0a9184d3-4be6-40d5-b467-169fe34f3378.png)
+
+Figure 2: Current while active for example_i2c_sgp40_measure_raw_signal.cfg
+
+![image](https://user-images.githubusercontent.com/114425682/194934553-2e006a0c-7c37-4cdd-bece-d1587408ff6c.png)
+
+Table 1: Estimated survival time with CR2032 coin cell battery
+
+From the table and figures 1 & 2, the IN100 can advertise at the relatively fast interval of 1 second driven at a 1.8 and still last for over one year.
