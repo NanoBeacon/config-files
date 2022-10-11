@@ -5,6 +5,10 @@ that consumes only 0.89 uA at a 100 Hz output data rate and 180 nA when in motio
 This directory contains four files for configuring the IN100 to capture and broadcast data from
 the ADXL367 sensor
 
+![image](https://user-images.githubusercontent.com/114425682/195175376-bb9214ab-f650-45b7-b6d9-53171c8cd079.png)
+
+Figure 1: Wiring diagram of ADXL367z and IN100
+
 ### i2c_adxl367_50hz_odr_with_temp.cfg and example_adxl367_50hz_odr_with_temp.cfg
 
 #### i2c_adxl367_50hz_odr_with_temp.cfg
@@ -81,15 +85,15 @@ As a demonstration of the IN100's energy saving capabilities, the following figu
   
 ![image](https://user-images.githubusercontent.com/114425682/194610826-3895e200-571c-47a6-97f6-d3db93973c2f.png)
 
-Figure 1: Current while passive for example_adxl367_50hz_odr_with_temp.cfg
+Figure 2: Current while passive for example_adxl367_50hz_odr_with_temp.cfg
 
 ![image](https://user-images.githubusercontent.com/114425682/194611055-3dae099b-9998-4bfb-89e6-fd04be01ae1d.png)
 
-Figure 2: Current while active for example_adxl367_50hz_odr_with_temp.cfg
+Figure 3: Current while active for example_adxl367_50hz_odr_with_temp.cfg
 
 ![image](https://user-images.githubusercontent.com/114425682/194620167-b2a20bbb-bba0-41db-a18b-ed124760ff07.png)
 
 Table 1: Estimated survival time with CR2032 coin cell battery 
 
-In the above figures 1 & 2, and in table 1, the IN100 in combination with the ADXL367 can run on a simple coincell batttery for several years without recharge. This is also at only a 5 second interval, which is not needed in all applications. The longer the advertising interval, the more dominant the passive current consumption becomes. Therefore, even longer lasting results can be expected.
+In the above figures 2 & 3, and in table 1, the IN100 in combination with the ADXL367 can run on a simple coincell batttery for several years without recharge. This is also at only a 5 second interval, which is not needed in all applications. The longer the advertising interval, the more dominant the passive current consumption becomes. Therefore, even longer lasting results can be expected.
 
