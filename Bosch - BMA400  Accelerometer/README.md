@@ -18,6 +18,18 @@ Figure 2: Active Current for i2c_tap_bma400.cfg
 
 In the figures above, the passive current consumption is larger than the IN100's usual passive consumption. However, this is during an interrupt event where 6 advertisements are sent out in rapid succession. See the file i2c_tap_bma400.cfg as reference for the operation of the advertising set being sent. The life expectancy of this configuration is very dependent on how often it triggers. If the movement is constant, the consumption will be very high, with the passive current dominating over time. If the motion is periodic, the power consumption drops to 9.457 uA.
 
+![image](https://user-images.githubusercontent.com/108510134/217399548-66aa3644-e5f5-44a1-b8d8-d5d0cb5cab98.png)
+
+Figure 3: Multiple tap events
+
+In Figure 3, above. The broadcasting event is triggered multiple times in short succession. This can result in overlapping advertising events, but also highly time-accurate reporting of the movement. 
+
+![image](https://user-images.githubusercontent.com/108510134/217400086-d89432c4-21d0-4036-8fc2-e35739e855e2.png)
+
+Figure 4: InPlay App Capturing Tap Configuration
+
+In Figure 4, the tap event is captured by the InPlay mobile app for Android and iOS.
+
 #### i2c_bma400.cfg
 
 The I2C sequence used in the config file works by resetting all of the settings by writing to the appropriate registers. It then writes to the sensor data in warm boot and reads it. This is meant for periodic reading of axis data.
@@ -26,14 +38,14 @@ As a demonstration of the IN100's energy saving capabilities, the following figu
 
 ![image](https://user-images.githubusercontent.com/114425682/194935651-bcda0473-f8e8-4c80-9ee7-10990d41610e.png)
 
-Figure 3: Current while passive for i2c_bma400.cfg
+Figure 5: Current while passive for i2c_bma400.cfg
 
 ![image](https://user-images.githubusercontent.com/114425682/194935768-053e9a9f-63d2-4040-818e-f5d7ed2895fe.png)
 
-Figure 4: Current while active for i2c_bma400.cfg
+Figure 6: Current while active for i2c_bma400.cfg
 
 ![image](https://user-images.githubusercontent.com/114425682/194937167-404772d4-293c-424d-879b-d5d744ff2c78.png)
 
 Table 1:
 
-In table 1 and figures 1 & 2, the survivability of the IN100 with the BMA40 is very impressive, even with a rapid advertising interval of 10 ms.
+In table 1 and figures 5 & 6, the survivability of the IN100 with the BMA40 is very impressive, even with a rapid advertising interval of 10 ms.
