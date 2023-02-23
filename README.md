@@ -1,9 +1,20 @@
 # InPlay-Technologies IN100 Github Page
-### Links
+### InPlay Links and Resources
 #### [Website](https://inplay-tech.com)
 #### [NanoBeacon Config Tool](https://inplay-tech.com/nanobeacon-config-tool)
 #### [IN100 Development Kit](https://www.digikey.com/en/products/detail/inplay-inc/IN1BN-DKC0-100-C0/15652914?s=N4IgTCBcDaIJIDsCMAGFIC6BfIA)
 #### [IN100 DFN8](https://www.digikey.com/en/products/detail/inplay-inc/IN100-D1-R-RC0I/15652913) and [IN100 QFN18](https://www.digikey.com/en/products/detail/inplay-inc/IN100-Q1-R-RC0I/15652915)
+
+### Partner Links
+
+#### [ADXL367](https://www.digikey.com/en/product-highlight/a/analog-devices/adxl367-digital-output-mems-accelerometer?utm_adgroup=Analog%20Devices&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Focus%20Suppliers&utm_term=&utm_content=Analog%20Devices&gclid=Cj0KCQiAutyfBhCMARIsAMgcRJSozhHmyTf2U9KvLlrC_Vy3HzJySxO4HktMJryGSfHj6obXRjTNd0oaAp0EEALw_wcB)
+#### [BMA 400](https://www.digikey.com/en/product-highlight/b/bosch-sensortec/bma400-accelerometer?utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Buyers&utm_term=&utm_content=General&gclid=Cj0KCQiAutyfBhCMARIsAMgcRJRHx71W3K2riNfsaA5pVx1AttAz-UV3WbARc34d_ThP8R5D2q3W6SEaAvqjEALw_wcB)
+#### [BME 280](https://www.digikey.com/en/products/detail/bosch-sensortec/BME280/6136306?utm_adgroup=Sensors%20%26%20Transducers&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Buyers&utm_term=&utm_content=Sensors%20%26%20Transducers&gclid=Cj0KCQiAutyfBhCMARIsAMgcRJSOigxE8hdNLgSMNHwZD-nitxV59ghHKmZCPEZ1CRSbIBm3yJwNS_oaAqc4EALw_wcB)
+#### [SGP40](https://www.digikey.com/en/product-highlight/s/sensirion/sgp40-d-r4?utm_adgroup=Sensors%20%26%20Transducers&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Buyers&utm_term=&utm_content=Sensors%20%26%20Transducers&gclid=Cj0KCQiAutyfBhCMARIsAMgcRJSSK0J6m_dkya4EOmBm6oj4XW1MeC93muqXRHtr6_AtxQfObfJ5W00aAiL-EALw_wcB)
+#### [SHT4X](https://www.digikey.com/en/product-highlight/s/sensirion/sht4x-series-humidity-and-temperature-sensors?utm_adgroup=Sensors%20%26%20Transducers&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Buyers&utm_term=&utm_content=Sensors%20%26%20Transducers&gclid=Cj0KCQiAutyfBhCMARIsAMgcRJQRtFQxzsyT5R6p0Mtkx19OgTdzA4obat9uV4QQwZXxfxzP6oZ6rSEaAl-PEALw_wcB)
+#### [SEN-15440](https://www.digikey.com/en/products/detail/sparkfun-electronics/SEN-15440/10440485?utm_adgroup=General&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_RLSA_Buyers&utm_term=&utm_content=General&gclid=Cj0KCQiAutyfBhCMARIsAMgcRJT-RfOkgt8x2d8vDWd5eu_hNrEam7arTMHXJnxnxKZUz90eDn_zC2oaAljuEALw_wcB)
+#### [SEN-21207](https://www.sparkfun.com/products/21207)
+#### [TMP102](https://www.digikey.com/en/products/base-product/texas-instruments/296/TMP102/28422?utm_adgroup=Texas%20Instruments&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Focus%20Suppliers&utm_term=&utm_content=Texas%20Instruments&gclid=Cj0KCQiAutyfBhCMARIsAMgcRJRpbxdZtrnyHxOjCDH1ejE1KtgNkG5gqirwj1PAM63xEYxRFIqBR2YaApOfEALw_wcB)
 
 ### IN100 Support
 
