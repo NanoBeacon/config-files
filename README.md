@@ -132,17 +132,29 @@ The ADXL367 is an ultralow power, 3-axis microelectromechanical systems (MEMS) a
 made by Analog devices. This directory contains configuration files to configure the
 IN100 to interface with the ADXL367 sensor.
 
+See this directory here: https://github.com/NanoBeacon/config-files/tree/main/Analog%20Devices%20-%20ADXL367%20Digital%20Output%20MEMS%20Accelerometer
+
 ### Bosch - BMA400 Accelerometer
 
 The BMA400 is a 12-bit triaxal acceleration sensor with position and motion triggered 
 interrupt features. This configuration file configures the IN100 to communicate with
 the BMA400.
 
+See this directory here: https://github.com/NanoBeacon/config-files/tree/main/Bosch%20-%20BMA400%20%20Accelerometer
+
+### Bosch - BME280 Pressure, Temperature, and Humidity Sensor
+
+The BME280 is a digital sensor with ability to sense pressure, temperature, and humidity. It reports high performance in all applications needing pressure and humidity sensing with high resolution and accurate recordings over a wide range of operating temperatures. This directory includes instructions on how to configure this sensor to work with the IN100.
+
+See this directory here: https://github.com/NanoBeacon/config-files/tree/main/Bosch-%20BME280%20Pressure%2C%20Temperature%2C%20and%20Humidity%20Sensor
+
 ### Sensirion - SGP40 Indoor Air Quality Sensor
 
 The SGP40 is a digital gas sensor designed for easy integration into air purifiers 
 or demand controlled ventilation systems made by Adafruit. This directory contains
 configuration files to use the SGP40 with the IN100.
+
+See this directory here: https://github.com/NanoBeacon/config-files/tree/main/Sensirion%20-%20SGP40%20Indoor%20Air%20Quality%20Sensor
 
 ### Sensirion - SHT4X Humidity and Temperature Sensor
 
@@ -151,8 +163,25 @@ temperature sensor made by Sensirion. This directory has a typical write-
 delay-read sequence to communicate with the SHT40 sensor, a low-power configuration,
 and a configuration with power switching enabled.
 
+See this directory here: https://github.com/NanoBeacon/config-files/tree/main/Sensirion%20-%20SHT4X%20Humidity%20and%20Temperature%20Sensor
+
+### Sparkfun - SEN-15440 Atmospheric Sensor Breakout Board
+
+The Sparkfun SEN-15440 is a breakout board utilizing the Bosch BME280 pressure, temperature, and humidity sensor and the IN100 together. This breakout board provides accurate sensor readings from the BME 280 with the IN100 providing a low power transmission with configurable payload and advertising parameters. This directory reiterates the same advice on configuring the BME280 to work with the IN100 but in the context of the Sparkfun breakout board.
+
+See this directory here: https://github.com/NanoBeacon/config-files/tree/main/SparkFun%20-%20SEN-15440%20Atmospheric%20Sensor%20Breakout%20Board
+
+### Sparkfun - SEN-21207 Trig Axis Accelerometer Breakout Board
+
+The SEN-21207 breakout board combines the Bosch BMA 400 accelerometer with the IN100 for accurrate motion detection and reporting. See Sparkfun's excellent guide on the SEN-21207 with a demo example of the board being used as a tap detection system. 
+
+https://learn.sparkfun.com/tutorials/sparkfun-triple-axis-accelerometer-breakout---bma400-qwiic-hookup-guide?_ga=2.236452034.297127480.1677184273-1653071583.1663629414
+
+See this directory here: https://github.com/NanoBeacon/config-files/tree/main/SparkFun%20-%20SEN-21207%20Trig%20Axis%20Accelerometer%20Breakout%20Board
+
 ### Texas Instruments - TMP102 Low-Power Digital Temperature Sensor
 
 The TMP102 is a lowpower digital temperature sensor made by Sparkfun. This file
 configures the IN100 i2c to communciates with the TMP102.
 
+See this directory here: https://github.com/NanoBeacon/config-files/tree/main/Texas%20Instruments%20-%20TMP102%20Low-Power%20Digital%20Temperature%20Sensor
