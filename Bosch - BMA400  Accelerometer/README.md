@@ -34,7 +34,7 @@ In Figure 4, the tap event is captured by the InPlay mobile app for Android and 
 
 The I2C sequence used in the config file works by resetting all of the settings by writing to the appropriate registers. It then writes to the sensor data in warm boot and reads it. This is meant for periodic reading of axis data.
 
-As a demonstration of the IN100's energy saving capabilities, the following figures and table drive the IN100 with the BMA400 at 1.8 V with a 10 milisecond advertising interval. This uses the i2c_sgp40_measure_raw_signal.cfg config file.
+As a demonstration of the IN100's energy saving capabilities, the following figures and table drive the IN100 with the BMA400 at 1.8 V with a 10 milisecond advertising interval. This uses the i2c_bma400.cfg config file.
 
 ![image](https://user-images.githubusercontent.com/114425682/194935651-bcda0473-f8e8-4c80-9ee7-10990d41610e.png)
 
