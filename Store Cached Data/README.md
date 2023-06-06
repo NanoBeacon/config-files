@@ -5,7 +5,10 @@ Some users want to use the IN100 for data transmission, however, there is appreh
 ![image](https://user-images.githubusercontent.com/108510134/231279535-d1867b0b-0452-4853-b518-4fcd2e85dc21.png)
 Figure 1: NanoBeacon Config Tool Advanced User Settings 
 
-Through this advanced tab, the user can write commands directly to register or memory addresses. 
+Through this advanced tab, the user can write commands directly to register or memory addresses.
+
+Note: The register commands from this section bear some similarity to the I2C commands described in other sections of this GitHub page. However, the commands entered here are not valid for I2C command sequences. The I2C data example below is relevant only to the data stored in the registers for the I2C and not to the I2C read, write, and delay commands that are used to acquire this data.
+
 ## Register write and delay commands
 
 Commands are written into the advanced settings. Each command follows a set structure that are detailed below.
