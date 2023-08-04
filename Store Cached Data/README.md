@@ -133,7 +133,7 @@ If the user wants to store previous temperature readings from the on-chip temper
 
 The second to last command from Figure 4 would change to:
 
-write: 3 9 3 14c4 2f800073C
+write: 3 9 3 14c4 2f80073C
 
 ## Transmitting Cached Data
 
