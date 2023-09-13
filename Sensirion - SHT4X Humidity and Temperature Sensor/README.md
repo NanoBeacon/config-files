@@ -9,7 +9,7 @@ to work with the IN100.
 
 #### i2c_device_sw0_power_control_settings.cfg
 
-This config files shows the magic commands enetered into the Advanced tab of the
+This config files shows the commands entered into the Advanced tab of the
 NanoBeacon Config Tool. These commands are how power switching is enabled for the
 IN100.
 
