@@ -63,7 +63,7 @@ From the results in table 2 and figures 3 & 4, the low power mode is far more en
 
 #### i2c_sht4x_power_switching.cfg
 
-This config file follows the same I2C sequence as i2c_sht4x.cfg, but with additional commands to account for power switching being enabled. To enable power switching, refer to i2c_device_sw0_power_control_settings.cfg. To account for power switching, an additional wait command is added to the beginning of the cold and warm boot up sequences. This allows the device time to wake up from being powered off.
+This config file follows the same I2C sequence as i2c_sht4x.cfg, but with additional commands for power switching being enabled. To enable power switching, refer to i2c_device_sw0_power_control_settings.cfg. To account for power switching, an additional wait command is added to the beginning of the cold and warm boot up sequences. This allows the device time to wake up from being powered off.
 
 ![image](https://user-images.githubusercontent.com/114425682/194437400-0358d29c-22c9-4878-b8d7-32ad45c1c7a3.png)
 
