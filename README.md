@@ -1,4 +1,4 @@
-# InPlay-Technologies IN100 Github Page
+# InPlay Inc Github Page
 ### InPlay Links and Resources
 #### [Website](https://inplay-tech.com)
 #### [NanoBeacon Config Tool](https://inplay-tech.com/nanobeacon-config-tool)
