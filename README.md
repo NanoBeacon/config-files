@@ -15,6 +15,7 @@
 #### [SEN-15440](https://www.sparkfun.com/)
 #### [SEN-21207](https://www.sparkfun.com/)
 #### [TMP102](https://www.ti.com/)
+#### [NXP FXLS8974CF](https://www.nxp.com/products/sensors/accelerometers/2g-4g-8g-16g-low-power-12-bit-digital-iot-accelerometer:FXLS8974CF)
 
 ### IN100 Support
 
@@ -196,3 +197,9 @@ The TMP102 is a lowpower digital temperature sensor made by Sparkfun. This file
 configures the IN100 i2c to communciates with the TMP102.
 
 See this directory here: https://github.com/NanoBeacon/config-files/tree/main/Texas%20Instruments%20-%20TMP102%20Low-Power%20Digital%20Temperature%20Sensor
+
+### NXP
+
+Featured here are the NXP sensor(s) tested with the IN100. Other NXP sensors not included on this list could still be compatible. 
+
+See the following directory: https://github.com/NanoBeacon/config-files/tree/main/NXP/FXLS8974CF%20Low%20Power%20Accelerometer 
