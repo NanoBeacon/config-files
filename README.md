@@ -16,6 +16,7 @@
 #### [SEN-21207](https://www.sparkfun.com/)
 #### [TMP102](https://www.ti.com/)
 #### [NXP FXLS8974CF](https://www.nxp.com/products/sensors/accelerometers/2g-4g-8g-16g-low-power-12-bit-digital-iot-accelerometer:FXLS8974CF)
+#### [NXP MPL311A2](https://www.nxp.com/products/sensors/pressure-sensors/barometric-pressure-15-to-150-kpa/absolute-digital-pressure-sensor-20-to-110-kpa:MPL3115A2)
 
 ### IN100 Support
 
