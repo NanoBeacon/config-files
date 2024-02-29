@@ -1,0 +1,1 @@
+This directory contains guides for temperature, pressure, and humidity sensors tested with the IN100. This also includes sensors that are only for temperature, only for pressure, only for humidity, or any combination of the three.
