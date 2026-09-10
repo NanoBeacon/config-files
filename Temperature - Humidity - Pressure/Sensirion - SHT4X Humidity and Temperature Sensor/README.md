@@ -5,6 +5,8 @@ The SHT4X is a high accuracy, low-power, 16-bit relative humidity and temperatur
 It uses a I2C protocol to handle serial communication. This makes it an excellent option
 to work with the IN100.
 
+##### Disclaimer: The IN100 has a known issue where it cannot read more than 5 bytes at a time on the I2C bus. Any byte read past 5 will be seen as "0x00" on the IN100. However, this issue only exists when the bytes are read consecutively. If the read commands are split up by write commands, the IN100 can safely read past 6 bytes. 
+
 ### File Description
 
 #### i2c_device_sw0_power_control_settings.cfg
